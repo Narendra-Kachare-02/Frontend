@@ -8,17 +8,27 @@
     <form action="/action.php">
         <div>
 
-            <input type="text" placeholder="username"> 
+            <input type="text" placeholder="username">
             <input type="password" placeholder="password"><br>
-            
-            <span><p>Select only one option for winning prizes</p></span>
-            <input type="radio" value="OptionA" name="class">OptionA
-            <input type="radio" value="OptionB" name="class">OptionB
-            <input type="radio" value="OptionC" name="class">OptionC
-            <input type="radio" value="OptionD" name="class">OptionD
 
-
-            
+            <div>
+                <p>Select your Branch</p>
+                <label for="101">
+                    <input type="radio" value="OptionA" name="class" id="101">Mechanical
+                </label>
+                <br>
+                <label for="102">
+                    <input type="radio" name="class" value="OptionB" id="102">Electrical
+                </label>
+                <br>
+                <label for="103">
+                    <input type="radio" name="class" value="OptionC" id="103">Chemical
+                </label>
+                <br>
+                <label for="104">
+                    <input type="radio" name="class" value="OptionD" id="104">Computer
+                </label>
+            </div>
 
 
         </div>
