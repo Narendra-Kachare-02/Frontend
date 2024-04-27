@@ -7,8 +7,21 @@
 <main>
     <form action="/Demo.php">
 
-        <textarea name="feedback" id="101" cols="50" rows="10" placeholder="Please give your valuable feedback here"></textarea>
-        <textarea name="feedback" id="102" cols="50" rows="10" placeholder="Please give your valuable feedback here">Type2</textarea>
+        <p>Enter the city</p>
+        <select name="city" id="city">
+        <option value="Delhi">Delhi</option>
+
+        <option value="Mumbai">Mumbai</option>
+
+        <option value="Pune">Pune</option>
+
+        <option value="Sangli">Sangli</option>
+
+
+
+    </select>
+
+    
 
 
     </form>
@@ -23,3 +36,5 @@
 <footer>
     Thank you for using form application
 </footer>
+
+<router-outlet></router-outlet>
