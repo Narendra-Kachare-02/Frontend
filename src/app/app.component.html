@@ -1,13 +1,41 @@
-<h1>HTML : List</h1>
+<h1>HTML : Tables</h1>
+<head>
+    <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    </style>
+</head>
 
-<ul>
-    Unordered list
-    <li>Apple</li>
-    <li>Mango</li>
-</ul>
+<table>
+    <caption>
+        Student Data
+    </caption>
+    
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+        </tr>
+    </thead>
+    
+    <tbody>
+        <tr>
+            <td>Ragnar</td>
+            <td>28354</td>
+        </tr>
+    </tbody>
 
-<ol>
-    Ordered list
-    <li>Guva</li>
-    <li>Pomengranut</li>
-</ol>
+</table>
