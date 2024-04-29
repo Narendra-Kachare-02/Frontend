@@ -14,7 +14,11 @@ h1
     font-family: Verdana;
     font-size: 300%;
 }
-
+img
+{
+    width:42px; 
+    height:42px;
+}
 p
 {
     
@@ -26,3 +30,25 @@ p
     margin: 50px;
 }
 
+a:link,:visited
+{
+    background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+a:hover,:active
+{
+    background-color: red;
+}
+
+a:active
+{
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
