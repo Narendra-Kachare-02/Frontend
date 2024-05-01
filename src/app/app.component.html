@@ -1,33 +1,26 @@
-
-
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <body>
 
-    <head>
-        <style>
-            body {
-                background-image: url('https://t3.ftcdn.net/jpg/07/05/51/10/240_F_705511010_g9J7OZubLBauCQ4vb8FK8RfoMP0lTKwF.jpg');
-                background-repeat: no-repeat;
-                background-size: 100%;
-                background-attachment: fixed;
-            }
-            p
-            {
-                color: white;
-            }
-        </style>
-    </head>
+<h2>The picture Element</h2>
 
-    <body>
+<picture>
+  <source media="(min-width: 650px)" srcset="https://www.w3schools.com/html/img_food.jpg">
+  <source media="(min-width: 465px)" srcset="https://www.w3schools.com/html/img_car.jpg">
+  <img src="https://www.w3schools.com/html/img_girl.jpg" style="width:auto;">
+</picture>
 
-        <h2>Background Image</h2>
+<p>Resize the browser to see different versions of the picture loading at different viewport sizes.
+The browser looks for the first source element where the media query matches the user's current viewport width,
+and fetches the image specified in the srcset attribute.</p>
 
-        <p>By default, the background image will repeat itself if it is smaller than the element where it is specified, in this case the body element.</p>
-
-    </body>
-
-
-
-
+<p>The img element is required as the last child tag of the picture declaration block.
+The img element is used to provide backward compatibility for browsers that do not support the picture element, or if none of the source tags matched.
+</p>
 
 </body>
+</html>
 
