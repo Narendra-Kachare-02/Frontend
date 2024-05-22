@@ -1,6 +1,22 @@
-img
+div
 {
+  border: 1px solid red;
   float: left;
-  margin-right: 10px;
-  width: 100px;
+}
+
+div.one
+{
+  background-color: orange;
+  padding: 10px;
+}
+
+div.two
+{
+    background-color: white;
+    padding: 10px;
+}
+div.three
+{
+  background-color: green;
+  padding: 10px;
 }
