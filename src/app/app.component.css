@@ -1,15 +1,16 @@
-div
+.nav
 {
-  border: 1px solid red;
-  overflow: auto;
-  margin: auto;
-  padding: 5px;
+  background-color: yellow;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
-img
+
+.nav li
 {
-  float: left;
-  margin-right: 10px;
-  width: 150px;
-
-
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+  
 }
