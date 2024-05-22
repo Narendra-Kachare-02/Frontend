@@ -1,9 +1,35 @@
-img
+div
+{
+  border: 1px solid black;
+}
+
+div.container
+{
+  position: relative;
+  width: 700px;
+  height: 100px;
+  z-index: 1;
+
+}
+
+div.green
 {
   position: absolute;
-  right: 12px;
-  height: 300;
-  width: 200;
-  border: red 1px solid;
-  z-index: -1;
+  width: 250px;
+  height: 100px;
+  right: 100px;
+  top: -10px;
+  background-color: green;
+  z-index: 2;
+}
+
+div.gray
+{
+  position: absolute;
+  top: 70px;
+  right: 60px;
+  width: 500px;
+  height: 50px;
+  background-color: gray ;
+  z-index: 3;
 }
