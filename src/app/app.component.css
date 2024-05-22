@@ -1,48 +1,6 @@
-div.one
+img
 {
-  border: 1px solid red;
-  background-color: tomato;
-  width: 150px;
-  height: 150px;
-  overflow: hidden;
-}
-
-div.two
-{
-  border: 1px solid red;
-  background-color: tomato;
-  width: 150px;
-  height: 150px;
-  overflow: scroll;
-  
-}
-
-div.three
-{
-  border: 1px solid red;
-  background-color: tomato;
-  width: 150px;
-  height: 150px;
-  overflow: auto;
-  
-}
-
-div.four
-{
-  border: 1px solid red;
-  background-color: tomato;
-  width: 150px;
-  height: 150px;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  
-}
-
-div.five
-{
-  border: 1px solid red;
-  background-color: tomato;
-  width: 150px;
-  height: 150px;
-  
+  float: left;
+  margin-right: 10px;
+  width: 100px;
 }
