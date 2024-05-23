@@ -1,20 +1,15 @@
 
-div p
+a.highlight:hover
 {
-  background-color: yellow;
+  color: hotpink;
+  font-size: 22px;
 }
 
-div > p
-{
-  background-color: green;
-}
 
-div + p
+.nav p
 {
-  background-color: orange;
-}
-
-div ~ p
-{
-  background-color: red;
+  border: solid red 1px;
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
 }
