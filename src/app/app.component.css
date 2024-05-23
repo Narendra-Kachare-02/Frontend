@@ -1,4 +1,20 @@
+
+div p
+{
+  background-color: yellow;
+}
+
 div > p
+{
+  background-color: green;
+}
+
+div + p
+{
+  background-color: orange;
+}
+
+div ~ p
 {
   background-color: red;
 }
