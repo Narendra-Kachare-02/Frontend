@@ -1,7 +1,28 @@
 
 
-::selection
+img
 {
-  color: red;
-  background-color: orange;
+  padding: 3px;
+  border: black solid 3px;
+  margin: 2px;
+  /* opacity: 0.5; */
+}
+
+
+img:hover
+{
+  opacity: 1.0;
+}
+
+.one
+{
+  opacity: 0.2;
+}      
+.two
+{
+  opacity: 0.3;
+}
+.three
+{
+  opacity: 0.5;
 }
