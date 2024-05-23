@@ -6,3 +6,7 @@ i:first-child
 {
   color: blue;
 }
+q:lang(no)
+{
+  quotes: "$__" "__$";
+}
