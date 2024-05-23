@@ -1,19 +1,4 @@
-img
+div > p
 {
-  right: 0px;
-  float: right;
-}
-
-div.one
-{
-  border: solid red 1px;
-  float: right;
-  text-align: justify;
-  padding: 10px;
-}
-
-
-p
-{
-  padding: 3px;
+  background-color: red;
 }
