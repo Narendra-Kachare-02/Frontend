@@ -1,12 +1,27 @@
-p:first-child 
+
+::marker
 {
   color: red;
 }
-i:first-child
+p.one::before
 {
-  color: blue;
+  content: url(https://www.google.com/logos/doodles/2024/celebrating-the-accordion-6753651837110222-s.png);
 }
-q:lang(no)
+p.one::after
 {
-  quotes: "$__" "__$";
+  content: url(https://www.google.com/logos/doodles/2024/celebrating-the-accordion-6753651837110222-s.png);
+}
+p.one::first-letter
+{
+  color: red;
+}
+p::first-line
+{
+  color: red;
+  font-variant: small-caps;
+}
+p::first-letter
+{
+  color: rgb(4, 33, 255);
+  font-size: xx-large;
 }
