@@ -1,15 +1,8 @@
-
-a.highlight:hover
+p:first-child 
 {
-  color: hotpink;
-  font-size: 22px;
+  color: red;
 }
-
-
-.nav p
+i:first-child
 {
-  border: solid red 1px;
-  display: inline-block;
-  padding: 20px;
-  font-size: 20px;
+  color: blue;
 }
