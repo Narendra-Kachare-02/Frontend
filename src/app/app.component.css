@@ -2,8 +2,6 @@ div.gallary
 {
     border: solid 1px rgba(0, 0, 0, 0.2);
     margin: 5px;
-    float: left;
-    width: 180px;
 }
 div.gallary:hover
 {
@@ -18,5 +16,30 @@ div.gallary img
 }
 .desc
 {
+    padding: 7px;
     text-align: center;
 }
+
+* {
+    box-sizing: border-box;
+  }
+
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
