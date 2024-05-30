@@ -1,4 +1,7 @@
-a[target]
+a[target="_blank"]
 {
-  background-color: yellow;
+  background-color: red;
+  color: white;
+  padding: 5px;
+  margin: 5px;
 }
