@@ -3,16 +3,28 @@
         <link rel="stylesheet" href="app.component.css">
     </head>
 
-
-
     <body>
-       
-<h2>Styling textarea</h2>
+        <h1>Using CSS to style an HTML Form</h1>
+        <div>
+            <form action="/#">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="your name..">
+                
+                <label for="fname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="your last name..">
 
-<p><strong>Tip:</strong> Use the resize property to prevent textareas from being resized (disable the "grabber" in the bottom right corner):</p>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="india">India</option>
+                    <option value="france">France</option>
+                    <option value="japan">Japan</option>
+                </select>
 
-<form>
-  <textarea>Some text...</textarea>
-</form>
+                <input type="submit" value="Submit">
+              </form>
+        </div>
+        
+        
+
     </body>
 </html>
